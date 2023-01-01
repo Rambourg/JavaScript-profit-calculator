@@ -1,19 +1,23 @@
-Challenge 4
-![CHALLENGE 4 ReadMe screenshot](https://user-images.githubusercontent.com/116593146/208454988-a6cf5130-186d-46eb-b2a5-cb463e5f6411.png)
-This project is part of the challenge 4 of the Bootcamp that I am currently following.
-The project consists in creating a solution for the following problem using JavaScript functions.
+ᴊᴀᴠᴀꜱᴄʀɪᴘᴛ ᴘʀᴏꜰɪᴛ ᴀɴᴅ ʟᴏꜱꜱᴇꜱ ᴄᴀʟᴄᴜʟᴀᴛᴏʀ.
 
-You have been given a dataset composed of arrays with two fields, Date and Profit/Losses.
+𝓣𝓱𝓲𝓼 𝓹𝓻𝓸𝓳𝓮𝓬𝓽 𝓬𝓸𝓷𝓼𝓲𝓼𝓽𝓼 𝓲𝓷 𝓬𝓻𝓮𝓪𝓽𝓲𝓷𝓰 𝓪 𝓬𝓪𝓵𝓬𝓾𝓵𝓪𝓽𝓸𝓻 𝓾𝓼𝓲𝓷𝓰 𝓙𝓪𝓿𝓪𝓢𝓬𝓻𝓲𝓹𝓽 𝓽𝓸 𝓬𝓪𝓵𝓬𝓾𝓵𝓪𝓽𝓮 𝓽𝓱𝓮 𝓹𝓻𝓸𝓯𝓲𝓽 𝓪𝓷𝓭 𝓵𝓸𝓼𝓼𝓮𝓼 𝓸𝓿𝓮𝓻 𝓪 𝓹𝓮𝓻𝓲𝓸𝓭 𝓸𝓯 𝓽𝓲𝓶𝓮.
+𝓘𝓷 𝓽𝓱𝓲𝓼 𝓬𝓪𝓵𝓬𝓾𝓵𝓪𝓽𝓲𝓸𝓷 𝓘 𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓽𝓱𝓮 𝓼𝓸𝓵𝓾𝓽𝓲𝓸𝓷 𝓽𝓸 𝓪𝓷𝓪𝓵𝓲𝔃𝓮 𝓽𝓱𝓮 𝓻𝓮𝓬𝓸𝓻𝓭𝓼 𝓸𝓯 𝓹𝓻𝓸𝓯𝓲𝓽 𝓪𝓷𝓭 𝓵𝓸𝓼𝓼𝓮𝓼 𝓭𝓾𝓻𝓲𝓷𝓰 𝓽𝓱𝓮 𝓹𝓮𝓻𝓲𝓸𝓭 𝓸𝓯 25 𝓶𝓸𝓷𝓽𝓱𝓼 𝓸𝓯 𝓪 𝓬𝓸𝓶𝓹𝓪𝓷𝔂.
+𝓣𝓱𝓮 𝓲𝓶𝓪𝓰𝓮 𝓫𝓮𝓵𝓵𝓸𝔀 𝓼𝓱𝓸𝔀 𝓽𝓱𝓮 𝓶𝓸𝓷𝓽𝓱𝓼 𝓪𝓷𝓭 𝓭𝓪𝓽𝓪 𝓽𝓸 𝓫𝓮 𝓪𝓷𝓪𝓵𝓲𝔃𝓮𝓭. 𝓘𝓽 𝓬𝓸𝓷𝓽𝓪𝓲𝓷𝓼 𝓶𝓸𝓷𝓽𝓱𝓼, 𝔂𝓮𝓪𝓻𝓼, 𝓵𝓸𝓼𝓼𝓮𝓼 𝓪𝓷𝓭 𝓹𝓻𝓸𝓯𝓲𝓽𝓼.
 
-Your task is to write JavaScript code that analyzes the records to calculate each of the following:
+![1 Months screenshot README](https://user-images.githubusercontent.com/116593146/210174838-880e0059-d43c-4b62-8acf-d5723c3ad55f.png)
 
-* The total number of months included in the dataset.
+𝓣𝓱𝓮 𝓯𝓸𝓵𝓵𝓸𝔀𝓲𝓷𝓰 𝓲𝓶𝓪𝓰𝓮 𝓼𝓱𝓸𝔀𝓼 𝓽𝓱𝓮 𝓙𝓪𝓿𝓪𝓼𝓬𝓻𝓲𝓹𝓽 𝓬𝓸𝓭𝓮𝓼 𝓾𝓼𝓮𝓭 𝓽𝓸 𝓼𝓸𝓵𝓿𝓮 𝓽𝓱𝓮 𝓹𝓻𝓸𝓫𝓵𝓮𝓶. 𝓣𝓱𝓮 𝓙𝓪𝓿𝓪𝓢𝓬𝓻𝓲𝓹𝓽 𝓬𝓪𝓵𝓬𝓾𝓵𝓪𝓽𝓮𝓼 𝓽𝓱𝓮 𝓹𝓻𝓸𝓯𝓲𝓽𝓼 𝓯𝓸𝓻 𝓮𝓪𝓬𝓱 𝓶𝓸𝓷𝓽𝓱 𝓪𝓷𝓭 𝓽𝓱𝓮 𝓵𝓸𝓼𝓼𝓮𝓼.
 
-* The net total amount of Profit/Losses over the entire period
-* The average of the **changes** in Profit/Losses over the entire period.
-  * You will need to track what the total change in profits are from month to month and then find the average.
-  * (`Total/Number of months`)
+![2 JS solution README](https://user-images.githubusercontent.com/116593146/210174951-ed0ead12-eb90-4ca4-a8e6-14784375e3c0.png)
 
-* The greatest increase in profits (date and amount) over the entire period.
+𝓘𝓷 𝓽𝓱𝓮 𝓵𝓪𝓼𝓽 𝓲𝓶𝓪𝓰𝓮 𝔀𝓮 𝓬𝓪𝓷 𝓼𝓮𝓮 𝓽𝓱𝓮 𝓻𝓮𝓼𝓾𝓵𝓽𝓼 𝓯𝓻𝓸𝓶 𝓽𝓱𝓮 𝓬𝓪𝓵𝓬𝓾𝓵𝓪𝓽𝓲𝓸𝓷 𝓾𝓼𝓲𝓷𝓰 𝓙𝓪𝓿𝓪𝓢𝓬𝓻𝓲𝓹𝓽 𝓵𝓸𝓰𝓰𝓮𝓭 𝓸𝓾𝓽 𝓲𝓷 𝓽𝓱𝓮 𝓬𝓸𝓷𝓼𝓸𝓵𝓮.
 
-* The greatest decrease in losses (date and amount) over the entire period.
+![Javascript final solution](https://user-images.githubusercontent.com/116593146/210175409-3b989ac2-748d-4beb-8fa3-e97632f5bb45.png)
+
+
+
+
+
+
+
+
