@@ -96,7 +96,7 @@ const finances = [
 
 const earningsArray = finances.map((el) => el[1]);
 
-const profitMonths = finances.filter((el) => el[1] > 0);
+const profitMonths = finances.filter((el) => el[1] > 0);//profit and sales for each month
 const salesOnProfitMonths = profitMonths
   .map((el) => el[1])
   .reduce((accVal, curVal) => accVal + curVal, 0);
@@ -104,16 +104,17 @@ const salesOnProfitMonths = profitMonths
 const avgOfProfitAndLoss =
   earningsArray.reduce((accVal, curVal) => accVal + curVal, 0) / finances.length; // get the average of all total and losses
 
+  //maximum profit month
 const maxMonth = {
   monthName: '',
   profit: 0,
 };
-
+//minimum profit month
 const minMonth = {
   monthName: '',
   profit: 0,
 };
-
+//finances each month/maximum and minimum
 finances.forEach((month) => {
   if (month[1] > maxMonth.profit) {
     maxMonth.monthName = month[0];
@@ -127,7 +128,7 @@ finances.forEach((month) => {
 
   return { maxMonth, minMonth };
 });
-
+//final results on the console
 console.log('Total sale of profit months: ', salesOnProfitMonths);
 console.log('Total average : ', avgOfProfitAndLoss);
 console.log('The month with max profit is : ', maxMonth);
